@@ -1,0 +1,20 @@
+{
+    "name": "GameFrameX.Advertisement.Editor",
+    "references": [
+        "GameFrameX.Advertisement.Runtime",
+        "GameFrameX.Editor",
+        "GameFrameX.Runtime"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "rootNamespace": "GameFrameX.Advertisement.Editor",
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
