@@ -31,7 +31,7 @@ namespace GameFrameX.Advertisement.Runtime
 
         protected override void Awake()
         {
-            ImplementationComponentType = Type.GetType(componentType);
+            ImplementationComponentType = Utility.Assembly.GetType(componentType);
             InterfaceComponentType = typeof(IAdvertisementManager);
             base.Awake();
             _advertisementManager = GameFrameworkEntry.GetModule<IAdvertisementManager>();
