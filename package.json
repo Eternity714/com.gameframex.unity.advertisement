@@ -1,5 +1,5 @@
 {
-  "name": "com.alianblank.gameframex.unity.advertisement",
+  "name": "com.gameframex.unity.advertisement",
   "displayName": "Game Frame X Advertisement",
   "category": "Game Framework X",
   "description": "Game Frame X Advertisement Component",
@@ -9,8 +9,8 @@
     "Game Framework X"
   ],
   "repository": {
-    "name": "com.alianblank.gameframex.unity.advertisement",
-    "url": "https://github.com/AlianBlank/com.alianblank.gameframex.unity.advertisement.git",
+    "name": "com.gameframex.unity.advertisement",
+    "url": "https://github.com/AlianBlank/com.gameframex.unity.advertisement.git",
     "type": "git"
   },
   "author": {
