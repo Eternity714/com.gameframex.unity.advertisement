@@ -1,4 +1,5 @@
 using System;
+using GameFrameX.Runtime;
 
 namespace GameFrameX.Advertisement.Runtime
 {
