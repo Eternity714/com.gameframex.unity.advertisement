@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.0.1](https://github.com/GameFrameX/com.gameframex.unity.advertisement/tree/1.0.1) (2025-05-30)
+
+[Full Changelog](https://github.com/GameFrameX/com.gameframex.unity.advertisement/compare/1.0.0...1.0.1)
+
 ## [1.0.0](https://github.com/GameFrameX/com.gameframex.unity.advertisement/tree/1.0.0) (2025-05-29)
 
 [Full Changelog](https://github.com/GameFrameX/com.gameframex.unity.advertisement/compare/a84e3569343f7aa927ee4edf14525a02108b61af...1.0.0)
