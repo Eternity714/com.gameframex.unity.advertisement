@@ -14,6 +14,13 @@ namespace GameFrameX.Advertisement.Runtime
         void Initialize(string adUnitId);
 
         /// <summary>
+        /// 设置额外的广告数据
+        /// </summary>
+        /// <param name="key">数据键</param>
+        /// <param name="value">数据值</param>
+        void SetExtraData(string key, string value);
+
+        /// <summary>
         /// 展示广告
         /// </summary>
         /// <param name="success">展示成功回调,参数为成功信息</param>

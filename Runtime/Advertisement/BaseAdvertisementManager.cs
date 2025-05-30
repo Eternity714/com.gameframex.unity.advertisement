@@ -45,6 +45,14 @@ namespace GameFrameX.Advertisement.Runtime
         /// <param name="adUnitId">广告单元ID</param>
         public abstract void Initialize(string adUnitId);
 
+        /// <summary>
+        /// 设置额外数据
+        /// </summary>
+        /// <param name="key">键</param>
+        /// <param name="value">值</param>
+        public virtual void SetExtraData(string key, string value)
+        {
+        }
 
         /// <summary>
         /// 展示广告

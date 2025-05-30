@@ -55,6 +55,19 @@ namespace GameFrameX.Advertisement.Runtime
         }
 
         /// <summary>
+        /// 设置广告额外数据
+        /// </summary>
+        /// <param name="key">数据键</param>
+        /// <param name="value">数据值</param>
+        /// <remarks>
+        /// 用于在展示广告前设置一些额外的参数数据，这些数据可能会被广告SDK使用
+        /// </remarks>
+        public void SetExtraData(string key, string value)
+        {
+            _advertisementManager.SetExtraData(key, value);
+        }
+
+        /// <summary>
         /// 展示广告
         /// </summary>
         /// <param name="success">展示成功回调</param>
