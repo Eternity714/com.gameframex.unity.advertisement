@@ -27,7 +27,6 @@ namespace GameFrameX.Advertisement.Runtime
         }
 
         private IAdvertisementManager _advertisementManager;
-        private EventComponent m_EventComponent;
 
         protected override void Awake()
         {
@@ -38,13 +37,6 @@ namespace GameFrameX.Advertisement.Runtime
             if (_advertisementManager == null)
             {
                 Log.Fatal("Advertisement manager is invalid.");
-                return;
-            }
-
-            m_EventComponent = GameEntry.GetComponent<EventComponent>();
-            if (m_EventComponent == null)
-            {
-                Log.Fatal("Event manager is invalid.");
                 return;
             }
         }
